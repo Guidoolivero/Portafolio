@@ -2,6 +2,10 @@ header {
     background-color: aquamarine;
 }
 
+img {
+    width: 10%;
+}
+
 .seccion-1 {
     background-color: aqua;
 }
@@ -20,4 +24,8 @@ header {
 
 .seccion-5 {
     background-color: cadetblue;
+}
+
+.seccion-6 {
+    background-color: burlywood;
 }

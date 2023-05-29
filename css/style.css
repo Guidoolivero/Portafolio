@@ -1,10 +1,6 @@
 * {
     margin: 0;
-}
-
-header {
-    background-color: #25252d;
-    padding: 1% 5% 1% 5%
+    text-decoration: none;
 }
 
 img {
@@ -12,7 +8,6 @@ img {
 }
 
 a {
-    text-decoration: none;
     color: #b7b8bc;
 }
 
@@ -21,7 +16,29 @@ a:hover {
     color: #b73631;
 }
 
-.nav-bar {}
+header {
+    background-color: #25252d;
+    height: 20vh;
+}
+
+header img {
+    padding-top: 2em;
+}
+
+header .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 2em;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 2%;
+
+}
+
 
 .seccion-1 {
     background-color: aqua;

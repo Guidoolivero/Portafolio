@@ -1,9 +1,24 @@
 header {
-    background-color: aquamarine;
+    background-color: #25252d;
+    
 }
 
 img {
     width: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #b7b8bc;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b73631;
+}
+
+.nav-bar {
+    
 }
 
 .seccion-1 {

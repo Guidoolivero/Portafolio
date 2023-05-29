@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+}
+
 header {
     background-color: #25252d;
-    
+    padding: 1% 10% 1% 10%
 }
 
 img {
@@ -17,16 +21,14 @@ a:hover {
     color: #b73631;
 }
 
-.nav-bar {
-    
-}
+.nav-bar {}
 
 .seccion-1 {
     background-color: aqua;
 }
 
 .seccion-2 {
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .seccion-3 {
@@ -46,7 +48,7 @@ a:hover {
 }
 
 .seccion-7 {
-    background-color:yellowgreen;
+    background-color: yellowgreen;
 }
 
 .seccion-8 {
@@ -54,5 +56,5 @@ a:hover {
 }
 
 footer {
-    background-color: dimgrey   ;
+    background-color: dimgrey;
 }

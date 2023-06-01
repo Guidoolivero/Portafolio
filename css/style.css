@@ -1,15 +1,29 @@
 * {
     margin: 0;
     text-decoration: none;
+    border: none;
 }
 
 img {
     width: 10%;
 }
 
-a {
+a, p {
     color: #b7b8bc;
 }
+
+h1 {
+    color: #fefefe;
+}
+
+button {
+    background-color: #e5383a;
+}
+
+h4 {
+    color: #b73631;
+}
+
 
 .nav-bar a:hover {
     text-decoration: none;
@@ -32,6 +46,7 @@ header img {
 
 .contenedor .logo {
     margin: 0 10% 0 10%;
+    width: 10%;
 }
 
 .contenedor .nav-bar {
@@ -60,8 +75,23 @@ header img {
 
 
 .seccion-1 {
-    background-color: aqua;
+    display: flex;
+    background-color: #212129;
+    padding: 5% 10% 5% 10%;
 }
+
+.contenedor-texto {
+    margin-left: 10em;
+    margin-top: 6em;
+}
+
+
+
+
+.seccion-1 img {
+    width: 90%;
+}
+
 
 .seccion-2 {
     background-color: white;

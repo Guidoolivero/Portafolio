@@ -247,5 +247,26 @@ h3 {
 }
 
 footer {
-    background-color: dimgrey;
+    background-color: #212129;
+    display: flex;
+    padding: 5% 10% 10% 10%;
 }
+
+footer svg {
+    color: #ffffff;
+}
+
+
+.firma {
+    display: flex;
+    justify-content: center;
+    background-color: #212129;
+    padding: 2em;
+    border-top: .5px solid #636364;
+}
+
+.firma span {
+    margin-left: 5px;
+    color: #e5383a;
+  }
+  
